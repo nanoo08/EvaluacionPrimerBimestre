@@ -21,15 +21,25 @@ public class ejericicio13 {
 	segundoIngresado= ingreso.nextInt();
 	
 
-	if (horaIngresada) {
+	if (horaIngresada<24) {
         System.out.println("hora correcta"); 
-        
-        
+    }
+	else {
+		System.out.println("el valor es incorrecto");
 	}
-	 
-	  
-         
-       
+	if(minutoIngresado<60) {
+		
+		System.out.println("minuto correcto"); 
+	}
+	else {
+		System.out.println("el valor es incorrecto");
+	}
+	if (segundoIngresado<60) {
+        System.out.println("segundo correcto"); 
+    }     
+	else {
+		System.out.println("el valor es incorrecto");
+	}   
 
 }
 }
