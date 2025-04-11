@@ -1,4 +1,4 @@
-package evPrimerBimestre;
+package evPrimerBimestreCachi;
 
 import java.util.Scanner;
 
