@@ -14,22 +14,20 @@ public class ejercicio15 {
 	
 	switch (talle) {
 	
-	case 'S': System.out.println("quedan 5 remeras");
-	break;
-	
+	case 'S': 
 	case 's': System.out.println("quedan 5 remeras");
 	break;
 	
-	case 'M': System.out.println("quedan 2 remeras");
-	break;
-	
+	case 'M':
 	case 'm': System.out.println("quedan 2 remeras");
 	break;
 	
-	case 'L': System.out.println("no quedan remeras");
-	break;
-	
+	case 'L':	
 	case 'l': System.out.println("no quedan remeras");
+	break;
+			
+	default:
+        System.out.println("no ingesaste ningun talle");
 	break;
 }
 }
